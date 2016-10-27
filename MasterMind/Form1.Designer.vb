@@ -38,6 +38,7 @@ Partial Class Form1
         Me.lbResultado = New System.Windows.Forms.Label()
         Me.btmBorrar = New System.Windows.Forms.Button()
         Me.btmInstruciones = New System.Windows.Forms.Button()
+        Me.btmComprobar = New System.Windows.Forms.Button()
         CType(Me.pb0, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pb1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pb3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -176,7 +177,7 @@ Partial Class Form1
         '
         'btmBorrar
         '
-        Me.btmBorrar.Location = New System.Drawing.Point(198, 43)
+        Me.btmBorrar.Location = New System.Drawing.Point(198, 45)
         Me.btmBorrar.Name = "btmBorrar"
         Me.btmBorrar.Size = New System.Drawing.Size(56, 25)
         Me.btmBorrar.TabIndex = 84
@@ -187,16 +188,26 @@ Partial Class Form1
         '
         Me.btmInstruciones.Location = New System.Drawing.Point(12, 45)
         Me.btmInstruciones.Name = "btmInstruciones"
-        Me.btmInstruciones.Size = New System.Drawing.Size(87, 23)
+        Me.btmInstruciones.Size = New System.Drawing.Size(87, 25)
         Me.btmInstruciones.TabIndex = 85
         Me.btmInstruciones.Text = "Instrucciones"
         Me.btmInstruciones.UseVisualStyleBackColor = True
+        '
+        'btmComprobar
+        '
+        Me.btmComprobar.Location = New System.Drawing.Point(117, 45)
+        Me.btmComprobar.Name = "btmComprobar"
+        Me.btmComprobar.Size = New System.Drawing.Size(75, 25)
+        Me.btmComprobar.TabIndex = 86
+        Me.btmComprobar.Text = "Comprobar"
+        Me.btmComprobar.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(537, 325)
+        Me.Controls.Add(Me.btmComprobar)
         Me.Controls.Add(Me.btmInstruciones)
         Me.Controls.Add(Me.btmBorrar)
         Me.Controls.Add(Me.lbResultado)
@@ -243,5 +254,6 @@ Partial Class Form1
     Friend WithEvents lbResultado As System.Windows.Forms.Label
     Friend WithEvents btmBorrar As System.Windows.Forms.Button
     Friend WithEvents btmInstruciones As System.Windows.Forms.Button
+    Friend WithEvents btmComprobar As System.Windows.Forms.Button
 
 End Class

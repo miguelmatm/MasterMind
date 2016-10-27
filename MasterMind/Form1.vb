@@ -51,4 +51,12 @@
         MsgBox("¿Puedes acertar la secuencia en solo " + CStr(num_filas) + "?" & vbCrLf & "Selecciona los colores que quieras de los botones de la parte superior" & vbCrLf & "Negro: Es el color correcto en una posicion incorrecta" & vbCrLf & "Blanco es el color correcto en una posicion correcta", , "Instrucciones")
 
     End Sub
+
+
+
+
+    Private Sub btmComprobar_Click(sender As System.Object, e As System.EventArgs) Handles btmComprobar.Click
+
+    End Sub
+
 End Class
