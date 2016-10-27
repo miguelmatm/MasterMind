@@ -23,7 +23,7 @@
             Me.Controls.Add(lb1)
 
             Dim lb2 As New Label
-            lb2.Size = New System.Drawing.Size(25, 25)
+            lb2.Size = New System.Drawing.Size(50, 25)
             lb2.Location = New System.Drawing.Point(485, 15 + (25 * i))
             lb2.Text = "B: - N: -"
             lb2.Name = "lbBN" & i
@@ -42,6 +42,7 @@
 
             Next
         Next
+
 
     End Sub
 
